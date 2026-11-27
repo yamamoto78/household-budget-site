@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard · Hearth &amp; Ledger — November 2026 budget</title>
+<meta name="description" content="Hearth & Ledger — a household budget site for the Marlowe family: dashboard, transactions, budgets, savings goals and insights, all working offline.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">⌂</span>
+      <span class="brand-text"><strong>Hearth &amp; Ledger</strong><em>The Marlowe household · November 2026</em></span>
+    </a>
+    <nav aria-label="Sections">
+      <a data-route href="#/">Dashboard</a>
+      <a data-route href="#/transactions">Transactions</a>
+      <a data-route href="#/budget">Budgets</a>
+      <a data-route href="#/goals">Goals</a>
+      <a data-route href="#/insights">Insights</a>
+    </nav>
+  </div>
+</header>
+<main id="view" class="wrap"></main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>Hearth &amp; Ledger is a demo household budget — figures are fictional, and everything is stored only in your browser.</p>
+    <p><button class="link-btn" data-action="reset-demo">Reset the demo data</button></p>
+  </div>
+</footer>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
